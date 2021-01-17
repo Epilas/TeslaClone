@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
   carContainer: {
     width: "100%",
     height: "100%",
@@ -27,4 +27,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default styles;
+export default style;

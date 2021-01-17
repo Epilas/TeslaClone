@@ -5,16 +5,16 @@ import CarItem from "./components/CarItem";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View style={style.container}>
 
       <CarItem />
-      
+
       <StatusBar style="auto" />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
